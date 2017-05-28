@@ -1,0 +1,285 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800";
+div#sideBar {
+  display: none;
+}
+div#mainContent {
+  padding: 0 400px;
+}
+div#footer {
+  padding: 20px 0 20px 400px;
+}
+div#header {
+  text-align: center;
+  background-image: url("http://demo.cssmoban.com/cssthemes4/btts_57_clean-blog/img/home-bg.jpg");
+  padding-top: 75px;
+  padding-bottom: 120px;
+  margin-bottom: 20px;
+}
+div#header h1 {
+  font-size: 80px !important;
+  color: white !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+div#header h2 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 24px !important;
+  line-height: 1.1 !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  font-weight: 300 !important;
+}
+div#header a:link,
+div#header a:visited,
+div#header a:hover,
+div#header a:active {
+  color: white;
+}
+div#header a:link,
+div#header a:visited {
+  text-decoration: none;
+}
+div#header a:hover,
+div#header a:active {
+  text-decoration: underline;
+}
+div#header .blogStats {
+  display: none;
+}
+div#header ul#navList {
+  list-style: none;
+  padding-left: 0;
+}
+div#header ul#navList li {
+  display: inline;
+  margin-left: 20px;
+}
+h1,
+h2,
+p,
+td.content,
+span.alt {
+  letter-spacing: -0.01em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  word-spacing: -0.05em;
+  font-family: "Open Sans", "DejaVu Sans", "Sans", sans-serif;
+  font-weight: 300 !important;
+  font-style: normal;
+  color: #ba3c23;
+  text-rendering: optimizeLegibility;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+h1.postTitle a:link,
+h1.postTitle a:visited,
+h1.postTitle a:hover,
+h1.postTitle a:active {
+  color: rgba(0, 0, 0, 0.85);
+}
+h1.postTitle a:link,
+h1.postTitle a:visited {
+  text-decoration: none;
+}
+h1.postTitle a:hover,
+h1.postTitle a:active {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 2.75em !important;
+}
+h2 {
+  font-size: 2.3125em !important;
+}
+h3 {
+  font-size: 1.6875em !important;
+}
+pre {
+  background: #f7f7f8 !important;
+  font-size: 1em !important;
+  border-radius: 4px !important;
+  word-wrap: break-word !important;
+  padding: 1em !important;
+  line-height: 1.45 !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+  font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace !important;
+  font-weight: 400 !important;
+  border: 0px !important;
+}
+.cnblogs-markdown .hljs {
+  background: #f7f7f8 !important;
+  font-size: 1em !important;
+  border-radius: 4px !important;
+  word-wrap: break-word !important;
+  line-height: 1.45 !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+  font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace !important;
+  font-weight: 400 !important;
+  border: 0px !important;
+}
+*:not(pre) > .cnblogs-markdown code {
+  font-size: .9375em !important;
+  font-style: normal !important;
+  letter-spacing: 0 !important;
+  padding: .1em .5ex !important;
+  background-color: #f7f7f8 !important;
+  border-radius: 4px !important;
+}
+.cnblogs-markdown code {
+  font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace !important;
+  font-weight: 400 !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+blockquote {
+  color: #777;
+  font-style: italic;
+  padding: .5rem 1rem .5rem .5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-left: .25rem solid #eceeef;
+  margin-left: 0px !important;
+}
+#cnblogs_post_body a {
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+  color: #333;
+}
+#cnblogs_post_body a:focus,
+#cnblogs_post_body a:hover {
+  color: #0085a1;
+}
+#cnblogs_post_body p {
+  letter-spacing: .09em;
+  font-size: 1.0625rem;
+  margin: 1rem 1.25rem;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.6;
+}
+#cnblogs_post_body hr {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#cnblogs_post_body ol {
+  padding-left: 30px !important;
+}
+#BlogPostCategory,
+#EntryTag,
+#blog_post_info,
+.clear,
+#comment_form,
+#blog-comments-placeholder {
+  display: none !important;
+}
+div.postTitle a {
+  letter-spacing: -0.01em;
+  font-size: 2.3125em;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  color: #ba3925;
+}
+div.forFlow {
+  line-height: 2;
+}
+div.forFlow div.postDesc {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+div.forFlow div.postDesc a {
+  display: none;
+}
+div.forFlow div.postTitle {
+  padding-top: 30px;
+}
+div.forFlow div.dayTitle {
+  display: none;
+}
+div.forFlow div.day a {
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+}
+div.forFlow div.day a:focus,
+div.forFlow div.day a:hover {
+  color: #0085a1;
+}
+/* Base16 Atelier Cave Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* Atelier-Cave Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #655f6d;
+}
+/* Atelier-Cave Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #be4678;
+}
+/* Atelier-Cave Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #aa573c;
+}
+/* Atelier-Cave Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #2a9292;
+}
+/* Atelier-Cave Blue */
+.hljs-title,
+.hljs-section {
+  color: #576ddb;
+}
+/* Atelier-Cave Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #955ae7;
+}
+.hljs-deletion,
+.hljs-addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
+}
+.hljs-deletion {
+  background-color: #be4678;
+}
+.hljs-addition {
+  background-color: #2a9292;
+}
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #efecf4;
+  color: #585260;
+  padding: 0.5em;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}

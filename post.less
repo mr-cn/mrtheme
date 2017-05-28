@@ -1,0 +1,123 @@
+h1, h2, p, td.content, span.alt {
+  letter-spacing: -.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  word-spacing: -.05em;
+  font-family: "Open Sans", "DejaVu Sans", "Sans", sans-serif;
+  font-weight: 300 !important;
+  font-style: normal;
+  color: #ba3c23;
+  text-rendering: optimizeLegibility;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+h1.postTitle {
+  a:link, a:visited, a:hover, a:active {
+    color: rgba(0, 0, 0, .85);
+  }
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  font-size: 2.75em !important;
+}
+
+h2 {
+  font-size: 2.3125em !important;
+}
+
+h3 {
+  font-size: 1.6875em !important;
+}
+
+pre {
+  background: #f7f7f8 !important;
+  font-size: 1em !important;
+  border-radius: 4px !important;
+  word-wrap: break-word !important;
+  padding: 1em !important;
+  line-height: 1.45 !important;
+  color: rgba(0, 0, 0, .9) !important;
+  font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace !important;
+  font-weight: 400 !important;
+  border: 0px !important;
+}
+
+.cnblogs-markdown .hljs {
+  background: #f7f7f8 !important;
+  font-size: 1em !important;
+  border-radius: 4px !important;
+  word-wrap: break-word !important;
+  line-height: 1.45 !important;
+  color: rgba(0, 0, 0, .9) !important;
+  font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace !important;
+  font-weight: 400 !important;
+  border: 0px !important;
+}
+
+*:not(pre) > .cnblogs-markdown code {
+  font-size: .9375em !important;
+  font-style: normal !important;
+  letter-spacing: 0 !important;
+  padding: .1em .5ex !important;
+  background-color: #f7f7f8 !important;
+  border-radius: 4px !important;
+}
+
+.cnblogs-markdown code {
+  font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace !important;
+  font-weight: 400 !important;
+  color: rgba(0, 0, 0, .9) !important;
+}
+
+blockquote {
+  color: #777;
+  font-style: italic;
+  padding: .5rem 1rem .5rem .5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-left: .25rem solid #eceeef;
+  margin-left: 0px !important;
+}
+
+#cnblogs_post_body {
+  a {
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    color: #333;
+  }
+  a:focus, a:hover {
+    color: #0085a1;
+  }
+
+  p {
+    letter-spacing: .09em;
+    font-size: 1.0625rem;
+    margin: 1rem 1.25rem;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  hr {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+  }
+  ol {
+    padding-left: 30px !important;
+  }
+}
+
+#BlogPostCategory, #EntryTag, #blog_post_info, .clear,#comment_form,#blog-comments-placeholder {
+  display: none !important;
+}
