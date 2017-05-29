@@ -8,17 +8,27 @@ div.postTitle a {
 div.forFlow {
   line-height: 2;
   div.postDesc {
-    padding-bottom: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    display: none;
     a {
       display: none;
     }
   }
   div.postTitle {
-    padding-top: 30px;
+    //padding-top: 30px;
+    letter-spacing: .12em;
   }
   div.dayTitle {
-    display: none;
+    //display: none;
+    a:link, a:visited, a:hover, a:active {
+      color: gray;
+    }
+    a:link, a:visited {
+      text-decoration: none;
+    }
+    a:hover, a:active {
+      text-decoration: underline;
+    }
+    margin-bottom: -10px;
   }
   div.day {
     a {
@@ -30,4 +40,36 @@ div.forFlow {
       color: #0085a1;
     }
   }
+  div.postCon {
+    a {
+      display: block;
+      margin: 30px auto 20px;
+      color: rgba(256, 256, 256, 0.7);
+      font-size: 20px;
+      font-weight: lighter;
+      background: rgba(0, 0, 0, 0.09);
+      padding: 12px 35px;
+      transition: all 0.3s ease;
+      position: relative;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #89867E;
+      //text-decoration: underline;
+    }
+    /*
+    a:link {
+      text-decoration: none;
+    }*/
+    a:hover {
+      text-decoration: underline;
+    }
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+    letter-spacing: .09em;
+  }
+
 }
